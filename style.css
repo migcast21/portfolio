@@ -9,12 +9,17 @@
     background-color: lightgray;
     padding: 10px 10px;
     font-weight: bold;
-    
+    width: 100%;
+    overflow-x: hidden; 
 }
 
 .header {
     text-decoration: none;
     color: black;
+    margin-top: -15px;
+    width: 100%;
+    margin-left: auto;
+    margin-left: -10px;
 }
 
 a:link, a:visited {
@@ -32,4 +37,23 @@ body {
     background-color: darkgray;
     color: black;
     font-family: 'Uchen', serif;
+}
+
+.first {
+    display: inline-block;
+    font-size: 95px;
+    margin-top: 250px;
+
+}
+
+.second {
+    display: inline-block;
+    font-size: 30px;
+    transition:.5s ease;
+
+}
+
+.name:hover .second {
+    color: white;
+    transition: 0.7s ease-in-out;
 }

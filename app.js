@@ -1,19 +1,6 @@
-const $div = $('<div>').appendTo($('body'))
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 $(() => {
 
+
+console.log("Hello")
 
 })
