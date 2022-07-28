@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Poiret+One&display=swap');
+
+.menu {
+    list-style: none;
+    display: flex;
+    letter-spacing: 2px;
+    font-size: 15px;
+    justify-content: space-around;
+    background-color: lightgray;
+    padding: 10px 10px;
+    font-weight: bold;
+    
+}
+
+.header {
+    text-decoration: none;
+    color: black;
+}
+
+a:link, a:visited {
+    color: black;
+    text-decoration: none;
+}
+
+a:hover {
+    color: gainsboro;
+    transition: 0.7s ease-in-out;
+}
+
+
+body {
+    background-color: darkgray;
+    color: black;
+    font-family: 'Uchen', serif;
+}
