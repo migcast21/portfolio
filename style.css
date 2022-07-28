@@ -53,7 +53,26 @@ body {
 
 }
 
+.name {
+    margin-top: -100px;
+}
+
 .name:hover .second {
-    color: white;
+    color: gainsboro;
     transition: 0.7s ease-in-out;
+}
+
+.footer {
+    float: right;
+    position: relative;
+}
+
+.links {
+    list-style: none;
+    justify-content: space-around;
+    width: 30px;
+}
+
+p {
+    display: none;
 }

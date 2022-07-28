@@ -1,6 +1,8 @@
 $(() => {
 
 
-console.log("Hello")
+$('.name').hover(function(){
+     $("p").show(7000);
+      });
 
 })
