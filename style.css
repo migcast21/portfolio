@@ -7,9 +7,9 @@
         background-color: lightgray;
         letter-spacing: 2px;
         font-weight: bold;
-        position: fixed; /* Set the navbar to fixed position */
-        top: 0; /* Position the navbar at the top of the page */
-        width: 100%; /* Full width */
+        position: fixed;
+        top: 0;
+        width: 100%;
         margin-left: -10px;
 }
 
@@ -42,7 +42,6 @@ body {
 .second {
     display: inline-block;
     font-size: 30px;
-    transition:.5s ease;
 
 }
 
@@ -89,6 +88,12 @@ p {
     #four {
         display: inline-block;
     }
+    body {
+        font-size: 1em;
+    }
+    footer {
+        width: 100%;
+    }
 }
 
 
@@ -99,9 +104,26 @@ p {
 
     #four {
         display: none;
-    };
+    }
 
     .name {
         display: flex;
     }
+}
+
+.carousel {
+    width: 40%;
+    float: above;
+    align-items: center;
+    position: sticky;
+    margin-left: 50%;
+}
+
+img {
+    max-width: 70%;
+    max-height: 500px;
+}
+
+.carousel-images img {
+	display: none;
 }
