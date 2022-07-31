@@ -73,7 +73,7 @@ body {
 
 p {
     display: none;
-    max-width: 75%;
+    max-width: 60%;
 }
 
 @media screen and (min-width: 360px) {
@@ -113,18 +113,42 @@ p {
 }
 
 .carousel {
-    width: 40%;
+    width: 80%;
     float: above;
     align-items: center;
-    position: sticky;
-    margin-left: 50%;
+    display: flex;
+    justify-content: space-around;
 }
 
-img {
-    max-width: 70%;
-    max-height: 50%px;
+.carousel-images {
+    width: 70%;
+	background: gainsboro;
+	padding: 10px;
+	border-radius: 10px;
+	box-sizing: border-box;
+	box-shadow: 2px 2px slategray;
 }
 
 .carousel-images img {
 	display: none;
+    width: 100%;
 }
+
+.carousel-images img:first-of-type {
+	display: block;
+}
+
+.float-container {
+    padding: 20px;
+    margin-top: -60px;
+}
+
+.float-child {
+    width: 40%;
+    float: left;
+}
+
+.bio {
+    float: bottom;
+}
+
