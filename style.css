@@ -28,9 +28,14 @@ a:hover {
 
 
 body {
-    background-color: darkgray;
     color: black;
     font-family: 'Uchen', serif;
+    background: linear-gradient(to right, darkgray, rgba(255,0,0,0)), url(city.jpg);   
+    background-color: darkgray;
+    background-size: 50%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: right;
 }
 
 .first {
@@ -56,19 +61,20 @@ body {
 }
 
 .footer {
-
-    position: absolute;
-    right: 10px;
-
+    position: sticky;
+    right: 0px;
+    float: right;
+    text-shadow: 2px 2px white;
+    width: 5px;
+    display: table;
 }
 
 .links {
     list-style: none;
-    justify-content: space-around;
-    width: 30px;
-    margin-right: -20px;
     position: relative;
-    float: right;
+    display: table-cell;
+    vertical-align: left;
+    text-align: center;
 }
 
 p {
