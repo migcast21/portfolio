@@ -2,7 +2,7 @@ $(() => {
 
 //Click to reveal text: home page
 $('body').hover(function(){
-    $('.home').show(4000);
+    $('.home').show(2000);
     $('.bio').show(2000);
     $("ul").show(2000);
     $('.headers').show(2000);
