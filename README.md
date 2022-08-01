@@ -5,4 +5,4 @@ Initial goals were to implement a carousel, a modal, and reveal text upon an act
 
 Initial hurdles were getting the links section in the form of four icons to display properly on the right side of the page. There were issues with responsive design as mobile-landscape mode caused some elements to display improperly. Accomplishments included executing the vision I had for the page -- while relatively simple the visuals came to life, fully functional.
 
-During the first unit of the course we learned HTML, CSS, Javascript, and jQuery. My aim was to implement those to construct a webpage that was an overall pleasant experience to use.
+During the first unit of the course we learned HTML, CSS, Javascript, and jQuery. My aim was to utilize those to construct a webpage that was an overall pleasant experience to use.
