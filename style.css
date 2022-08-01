@@ -161,23 +161,21 @@ p {
 #list {
     display: none;
 }
-
-/* The Modal (background) */
+/*MODAL*/
 .modal {
-    display: none; /* Hidden by default */
-    position: fixed; /* Stay in place */
-    z-index: 1; /* Sit on top */
-    padding-top: 100px; /* Location of the box */
+    display: none; 
+    position: fixed; 
+    z-index: 1; 
+    padding-top: 100px; 
     left: 0;
     top: 0;
-    width: 100%; /* Full width */
-    height: 100%; /* Full height */
-    overflow: auto; /* Enable scroll if needed */
-    background-color: rgb(0,0,0); /* Fallback color */
-    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0,0.4);
 }
 
-/* Modal Content */
 .modal-content {
     position: relative;
     background-color: #fefefe;
@@ -198,7 +196,16 @@ p {
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
 }
 
-/* The Close Button */
+.modal3-content {
+    position: relative;
+    background-color: #fefefe;
+    margin: auto;
+    padding: 0;
+    border: 1px solid #888;
+    width: 80%;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
 .close {
     color: white;
     float: right;
@@ -228,7 +235,21 @@ p {
 }
 
 .myBtn {
-    width: 100px;
-    background: url(https://i8.amplience.net/i/flooranddecor/100941533_concept-gray-porcelain-tile_display?fmt=auto&qlt=85&w=700);
+    width: 130px;
+    height: 30px;
+    background: url(https://media.istockphoto.com/photos/black-charcoal-texture-background-dark-wall-background-elegant-black-picture-id1222789120?k=20&m=1222789120&s=170667a&w=0&h=COwMaXiQr8o1c0PTLFcPdkAKw0tTD9fez_as2MtEbpg=);
     display: block;
-  }
+    border: 1px solid darkgray;
+    color: ivory;
+    font-weight: bold;
+    font-family: 'Uchen', serif;
+}
+
+.myBtn:hover{
+    border: 2px solid gainsboro;
+    color: gainsboro;
+}
+
+.headers {
+    display: none;
+}
